@@ -1,0 +1,17 @@
+<?php
+$myObj->name = "Andrus";
+$myObj->age = ?;
+$myObj->city = "Tallinn";
+
+$myJSON = json_encode($myObj);
+
+echo $myJSON;
+?>
+
+<?php
+$myArr = array("Andrus", "Sergi", "Taijo", "Nikita");
+
+$myJSON = json_encode($myArr);
+
+echo $myJSON;
+?>
